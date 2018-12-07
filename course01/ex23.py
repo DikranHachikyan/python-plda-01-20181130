@@ -15,9 +15,12 @@ def main():
     for txt in genText(*lst):
         print(txt)
     
-#     print(genText(*lst))
-#     print(genText(*lst))
-#     print(genText(*lst))
+    gn = genText(*lst)
+    
+    print('next value:', next(gn))
+    print('next value:', next(gn))
+    print('next value:', next(gn))
+    
         
 if __name__ == '__main__':
     main()
